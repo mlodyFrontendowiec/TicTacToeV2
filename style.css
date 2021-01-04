@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 600px;
+  height: 600px;
+  border: 2px solid purple;
+  margin: 10px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px 10px;
+  padding: 10px;
+}
+
+.field {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+}
+
+.field__circle {
+  background-image: url("/circle.png");
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+
+.field__cross {
+  background-image: url("/cross.png");
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
