@@ -7,7 +7,7 @@
 .wrapper {
   width: 600px;
   height: 600px;
-  border: 2px solid purple;
+  border: 2px solid blue;
   margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -19,7 +19,7 @@
 .field {
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-color: blue;
   &__circle {
     background-image: url("/circle.png");
     background-position: center;
@@ -31,5 +31,30 @@
     background-position: center;
     background-size: cover;
     background-color: white;
+  }
+}
+.end-wrapper {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200px;
+  &__button {
+    display: block;
+    padding: 6px 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
   }
 }
