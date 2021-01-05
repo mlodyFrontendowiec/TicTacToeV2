@@ -49,13 +49,13 @@
   background-color: white;
   position: fixed;
   left: 50%;
-  top: 15px;
+  top: 10px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  margin-top: 10px;
   font-size: 30px;
   text-align: center;
   line-height: 200px;
+  border: 2px solid blue;
 }
 
 .end-wrapper__button {
